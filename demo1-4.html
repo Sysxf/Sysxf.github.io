@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>旋转正方形</title>
+    <script src="js/ch03/cuon-utils.js"></script>
+    <script src="js/ch03/webgl-debug.js"></script>
+    <script src="js/ch03/webgl-utils.js"></script>
+    <script src="js/ch03/gl-matrix-min.js"></script>
+    <script src="js/ch03/cuon-matrix.js"></script>
+
+    <!--    <script src="triangle.js"></script>-->
+    <script src="js/ch03/demo1-4.js"></script>
+</head>
+<body onload="main()">
+<div style="text-align: center;" >
+
+    <h1>正方形旋转旋转</h1>
+    <canvas id="gl" width="650" height="650"></canvas><br>
+    <button onclick="down()">减速</button>
+    <button onclick="up()">加速</button>
+    <button onclick="my_reset()">重置</button>
+    <button onclick="stop()">停止</button>
+    <button onclick="start()">启动</button><br>
+    <button onclick="change()">换个方向转动</button>
+    <br>
+    <div id="msg"></div>
+</div>
+</body>
+</html>
